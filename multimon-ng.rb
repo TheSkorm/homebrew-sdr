@@ -5,7 +5,7 @@ class MultimonNg < Formula
   head "https://github.com/EliasOenal/multimon-ng.git"
 
   depends_on "qt" => :build
-  depends_on :x11
+  depends_on "libx11"
 
   def install
     mkdir "build" do
