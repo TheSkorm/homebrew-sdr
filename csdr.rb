@@ -5,7 +5,7 @@ class Csdr < Formula
   sha256 "5273633dac6e7ed8d4abdbd8c5a9c466a3924e5853b18723701935067cdaa00b"
   head "https://github.com/simonyiszk/csdr.git"
 
-  depends_on "cpython"
+  depends_on "cython"
 
   patch :DATA
 

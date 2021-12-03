@@ -12,7 +12,7 @@ class Libosmocore < Formula
   depends_on "pkg-config" => :build
 
   depends_on "pcsc-lite"
-  depends_on "cpython"
+  depends_on "cython"
   depends_on "talloc"
 
   def install
